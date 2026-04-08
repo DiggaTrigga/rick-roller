@@ -1,0 +1,9 @@
+#define IDR_SERVICE_EXE 101
+#define IDR_VIDEO_MP4   102
+
+// Embed the UAC Manifest
+1 24 "installer.exe.manifest"
+
+// Embed the Assets
+IDR_SERVICE_EXE RCDATA "SysUpdateHost.exe"
+IDR_VIDEO_MP4   RCDATA "services.mp4"
